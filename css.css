@@ -1,0 +1,13 @@
+div {   
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    background-color: rgba(49, 134, 208, 0.718);
+    padding: 10px;
+    font-family: Lucida Sans;
+}
+button:hover {
+    opacity: 0.6;
+}
