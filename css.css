@@ -1,13 +1,22 @@
-div {   
+body {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+}
+input {
+    background-color: rgba(117, 121, 123, 0.53);
+    padding: 10px;    
 }
 button {
     background-color: rgba(49, 134, 208, 0.718);
     padding: 10px;
     font-family: Lucida Sans;
 }
-button:hover {
+button:hover {  
     opacity: 0.6;
+}
+div {
+    background-color: rgba(174, 139, 56, 0.789);
+    font-size: 75px;
+    font-weight: bold;
 }

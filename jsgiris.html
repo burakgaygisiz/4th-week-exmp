@@ -1,34 +1,18 @@
 <html>
     <head>
-        <title>JS EXP</title>
-        <link rel="stylesheet" href="/css.css" type="text/css">       
+        <title>JS DENEMEE</title>
+        <link rel="stylesheet" href="/css.css">
     </head>
     <body>
-        <div>
-            <button onclick="Topla()">Toplama</button>
-                <button onclick="Cikar()">Çıkarma</button>
-                    <button onclick="Carp()">Çarpma</button>
-                        <button onclick="Bol()">Bölme</button>
-                            <button onclick="Kalan()">Kalanını Bulma</button>
-        </div>
-        <script>
-            var x = 100;
-            var y = 20;
-            function Topla() {
-               alert(x + y)
-            }
-            function Cikar() {
-               alert(x - y)
-            }
-            function Carp() {
-               alert(x * y)
-            }
-            function Bol() {
-               alert(x / y)
-            }
-            function Kalan() {
-               alert(x % y)
-            }  
+        <input id="sayi1" type="number">
+        <input id="sayi2" type="number">
+        <button onclick="hesapla('+')">Topla</button>
+        <button onclick="hesapla('-')">Cikar</button>
+        <button onclick="hesapla('*')">Carp</button>
+        <button onclick="hesapla('/')">Bol</button>
+        <div id="sonuctext"></div>
+        <script src="./script.js">
+        
         </script>
     </body>
 </html>
